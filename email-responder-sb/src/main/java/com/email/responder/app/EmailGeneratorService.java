@@ -1,5 +1,6 @@
-package com.email.responder;
+package com.email.responder.app;
 
+import com.email.responder.EmailRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -48,3 +49,4 @@ public class EmailGeneratorService {
         return prompt.toString();
     }
 }
+y
